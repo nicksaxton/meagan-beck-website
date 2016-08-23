@@ -24,18 +24,74 @@ ul {
 	width: 33%;
 	margin: -25px auto 0;
 	background: white;
+	min-width: 400px;
 }
 
 li {
 	display: inline-block;
 	list-style-image: none;
-	margin: 5px;
+	margin: 7px;
 	color: #666;
+	letter-spacing: 2px;
+}
+
+li:hover {
+	color: #9900cc;
+	cursor: pointer;
 }
 
 p {
 	width: 50%;
 	margin: auto;
-	padding: 50px;
+	padding: 15px;
 	color: #666;
+}
+
+div {
+	margin-top: 25px;
+}
+
+#lead {
+	font-size: 20px;
+}
+
+#about {
+	width: 66%;
+	margin: 25px auto;
+	min-width: 800px;
+}
+
+#about:after {
+	content: "";
+    clear: both;
+    display: block;
+}
+
+#about div {
+	float: left;
+	height: auto;
+	padding: 15px;
+}
+
+#about img {
+}
+
+#about-img {
+	width: 40%;
+}
+
+#about-text {
+	width: 60%;
+}
+
+#about p {
+	width: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.active-nav {
+	color: #9900cc;
 }
