@@ -12,11 +12,16 @@ body {
 h1 {
 	padding: 35px;
 	font-size: 75px;
-	color: #9900cc;
+	color: #A93BB4;
 	font-family: Parisienne, cursive;
-	border-bottom: 1px solid #9900cc;
+	border-bottom: 1px solid #A93BB4;
 	width: 66%;
 	margin: auto;
+}
+
+h3 {
+	color: #666;
+	margin-bottom: 15px;
 }
 
 ul {
@@ -36,7 +41,7 @@ li {
 }
 
 li:hover {
-	color: #9900cc;
+	color: #A93BB4;
 	cursor: pointer;
 }
 
@@ -73,9 +78,6 @@ div {
 	padding: 15px;
 }
 
-#about img {
-}
-
 #about-img {
 	width: 40%;
 }
@@ -88,10 +90,139 @@ div {
 	width: 100%;
 }
 
+#articles {
+	width: 66%;
+	margin: auto;
+}
+
+.container {
+	width: 45%;
+	float: left;
+	height: 310px;
+	background-size: cover;
+	border: 1px solid black;
+	margin: 15px;
+	position: relative;
+}
+
+.container p {
+	position: absolute;
+	color: white;
+	background-color: rgba(60, 60, 60, 0.7);
+	padding: 5px;
+	margin: 0;
+	bottom: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.container small {
+	font-size: 12px;
+}
+
+#article1 {
+	background: url("../img/1466207088.png") top;
+}
+
+#article2 {
+	background: url("../img/1466207634.png") top left;
+}
+
+#article3 {
+	background: url("../img/1468457403.png") top;
+}
+
+#article4 {
+	background: url("../img/1468457363.png") top;
+}
+
+#article5 {
+	background: url("../img/1466207693.png") left top;
+}
+
+#article6 {
+	background: url("../img/1466444041.png") right;
+}
+
+#article7 {
+	background: url("../img/1466209135.png") top;
+}
+
 .hidden {
 	display: none;
 }
 
 .active-nav {
 	color: #9900cc;
+}
+
+#contact p {
+	padding: 10px;
+}
+
+#contact a {
+	text-decoration: none;
+	font-style: italic;
+	color: #666;
+}
+
+#contact a:hover {
+	color: #222;
+}
+
+#resume {
+	width: 66.66%;
+	margin: auto;
+	text-align: left;
+}
+
+#resume h3 {
+	font-size: 17px;
+	margin-bottom: 4px;
+}
+
+#resume p {
+	margin: 0 0 4px 0;
+	padding: 0;
+}
+
+#resume ul {
+	padding: 0;
+	width: auto;
+	margin: 0;
+}
+
+#resume li {
+	display: list-item;
+	margin: 4px 0 4px 18px;
+	letter-spacing: 0;
+}
+
+#resume li:hover {
+	cursor: auto;
+	color: #666;
+}
+
+#resume-download a {
+	text-decoration: none;
+	color: #666;
+	padding: 20px 0;
+}
+
+#resume-download h3 {
+	display: inline;
+	font-size: 14px;
+}
+
+#resume-download a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+#resume-download img {
+	height: 32px;
+	width: 32px;
+	display: inline;
+	margin-bottom: -8px;
+	margin-right: 12px;
 }
