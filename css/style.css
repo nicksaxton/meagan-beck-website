@@ -137,7 +137,7 @@ div {
 }
 
 #article5 {
-	background: url("../img/1466207693.png") left top;
+	background: url("../img/179600ac49eb50cf.JPG") center;
 }
 
 #article6 {
@@ -145,7 +145,11 @@ div {
 }
 
 #article7 {
-	background: url("../img/1466209135.png") top;
+	background: url("../img/34014bed00792891.JPG") center left;
+}
+
+#article8 {
+	background: url("../img/05d0f4d780778f45.JPG") bottom;
 }
 
 .hidden {
