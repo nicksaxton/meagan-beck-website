@@ -206,27 +206,3 @@ div {
 	cursor: auto;
 	color: #666;
 }
-
-#resume-download a {
-	text-decoration: none;
-	color: #666;
-	padding: 20px 0;
-}
-
-#resume-download h3 {
-	display: inline;
-	font-size: 14px;
-}
-
-#resume-download a:hover {
-	color: #222;
-	text-decoration: underline;
-}
-
-#resume-download img {
-	height: 32px;
-	width: 32px;
-	display: inline;
-	margin-bottom: -8px;
-	margin-right: 12px;
-}
